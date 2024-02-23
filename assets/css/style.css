@@ -1,4 +1,5 @@
 /* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @font-face {
     font-family: 'Muller';
     src: url('./assets/fonts/MullerMedium.eot');
@@ -126,6 +127,56 @@
     color: #07060B;
 }
 /* HEADER */
+/* TOP */
+.top {
+    padding: 90px 0;
+    background-color: #07060B;
+}
+.top > .container {
+    gap: 32px;
+}
+.top_title {
+    font-family: "Russo One", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    color: #fff;
+}
+.top_users {
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.top_users_item {
+    flex: 1 45%;
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 16px;
+}
+.top_users_name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #07060B;
+}
+.top_users_title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #07060B;
+}
+.top_users_etn {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #07060B;
+}
+.top_users_usd {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #95959D;
+}
+/* TOP */
 /* FOR TOP */
 .for_top {
     padding: 32px 0;
