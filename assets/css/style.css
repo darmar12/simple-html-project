@@ -127,6 +127,64 @@
     color: #07060B;
 }
 /* HEADER */
+/* BANNER */
+.banner {
+    position: relative;
+    background-color: #07060B;
+}
+.banner_picture {
+    float: right;
+}
+.banner > .container {
+    gap: 36px;
+}
+.banner_title {
+    font-family: "Russo One", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 85px;
+    color: #fff;
+    max-width: 631px;
+}
+.banner_buttons {
+    gap: 32px;
+}
+.banner_button-buy,
+.banner_button-author {
+    border: none;
+    border-radius: 40px;
+    padding: 25px 54px;
+    background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #07060B;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.banner_button-buy:hover {
+    color: #07060B;
+    background: #57D272;
+}
+.banner_button-buy:active {
+    color: #07060B;
+    background: #46F4DB;
+}
+.banner_button-author {
+    border: 5px solid #57D272;
+    background: transparent;
+    color: #fff;
+}
+.banner_button-author:hover {
+    color: #07060B;
+    background: #57D272;
+}
+.banner_button-author:active {
+    color: #07060B;
+    background: #46F4DB;
+    border: 5px solid #46F4DB;
+}
+/* BANNER */
 /* TOP */
 .top {
     padding: 90px 0;
