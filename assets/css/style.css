@@ -230,6 +230,76 @@
     color: #fff;
 }
 /* FORM */
+/* AUTHOR */
+.author {
+    padding: 90px 0;
+    background-color: #fff;
+}
+.author > .container {
+    gap: 32px;
+}
+.author_info {
+    gap: 32px;
+}
+.author_title {
+    font-family: "Russo One", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    color: #07060B;
+}
+.author_text > b {
+    font-family: "Russo One", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #07060B;
+}
+.author_text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #07060B;
+    max-width: 624px;
+}
+.author_form {
+    width: 100%;
+    gap: 32px;
+}
+.author_file {
+
+}
+.author_input {
+    width: 100%;
+    max-width: 624px;
+    padding: 25px 10px 25px 32px;
+    border: none;
+    border-radius: 40px;
+    background-color: #EDEDF2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #717178;
+}
+.author_btn {
+    max-width: 296px;
+    padding: 25px 74px;
+    border: none;
+    border-radius: 40px;
+    background-color: #46F4DB;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #07060B;
+    cursor: pointer;
+    transition: all .4s linear;
+}
+.author_btn:hover,
+.author_btn:active {
+    background-color: #57D272;
+    color: #fff;
+}
+/* AUTHOR */
 /* TOP */
 .top {
     padding: 90px 0;
