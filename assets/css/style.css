@@ -185,6 +185,51 @@
     border: 5px solid #46F4DB;
 }
 /* BANNER */
+/* FORM */
+.form {
+    background-color: #D13130;
+    overflow: hidden;
+}
+.form_info {
+    gap: 32px;
+}
+.form_title {
+    font-family: "Russo One", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+.form_input {
+    max-width: 460px;
+    padding: 25px 10px 25px 32px;
+    border: none;
+    border-radius: 40px;
+    background-color: #07060B;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #EDEDF2;
+}
+.form_btn {
+    max-width: 296px;
+    padding: 25px 74px;
+    border: none;
+    border-radius: 40px;
+    background-color: #46F4DB;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #07060B;
+    cursor: pointer;
+    transition: all .4s linear;
+}
+.form_btn:hover,
+.form_btn:active {
+    background-color: #57D272;
+    color: #fff;
+}
+/* FORM */
 /* TOP */
 .top {
     padding: 90px 0;
