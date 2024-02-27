@@ -185,6 +185,86 @@
     border: 5px solid #46F4DB;
 }
 /* BANNER */
+/* MORE_AUCTION */
+.more_auction {
+    background-color: #fff;
+    padding: 0 0 90px;
+}
+.more_auction > .container {
+    gap: 32px;
+}
+.more_auction_title {
+    font-family: "Russo One", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #07060B;
+}
+.more_auction_list {
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.more_auction_item {
+    flex: 1 20%;
+    background-color: #EDEDF2;
+    border-radius: 40px;
+    padding: 7px 0 0;
+}
+.more_auction_info {
+    width: 100%;
+    padding: 16px 16px 32px 16px;
+    background-color: #07060B;
+    border-radius: 0 0 40px 40px;
+}
+.more_auction_author {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.more_auction_author > span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #fff;
+}
+.more_auction_name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+}
+.more_auction_price {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #46F4DB;
+}
+.more_auction_time {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #95959D;
+}
+.more_auction_btn {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #07060B;
+    background-color: transparent;
+    border: 5px solid #46F4DB;
+    border-radius: 40px;
+    padding: 20px 65px;
+    cursor: pointer;
+    transition: all .4s linear;
+}
+.more_auction_btn:hover {
+    background-color: #46F4DB;
+}
+.more_auction_btn:active {
+    background-color: #57D272;
+    border: 5px solid #57D272;
+}
+/* MORE_AUCTION */
 /* FORM */
 .form {
     background-color: #D13130;
