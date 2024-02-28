@@ -131,6 +131,10 @@
 .banner {
     position: relative;
     background-color: #07060B;
+    padding: 145px 0;
+    background-image: url(./../img/stickers_hero.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .banner_picture {
     float: right;
