@@ -397,7 +397,30 @@
     gap: 32px;
 }
 .author_file {
-
+    position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+.author_file_custom {
+    border-radius: 40px;
+    background-color: #EDEDF2;
+    padding: 98px 155px;
+    cursor: pointer;
+}
+.author_file_plus {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.author_file_text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #95959D;
 }
 .author_input {
     width: 100%;
