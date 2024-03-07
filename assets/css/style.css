@@ -189,6 +189,148 @@
     border: 5px solid #46F4DB;
 }
 /* BANNER */
+/* LIVE */
+.live {
+    padding: 90px;
+    background-color: #fff;
+}
+.live > .container {
+    gap: 32px;
+}
+.live_title {
+    font-family: "Russo One", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    color: #000;
+}
+.live_signal {
+    position: relative;
+    padding: 10px 15px 10px 26px;
+    border: 2px solid #D13130;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #D13130;
+}
+.live_signal:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background-color: #D13130;
+    border-radius: 50%;
+}
+.live_info,
+.live_content {
+    gap: 32px;
+}
+.live_info > picture {
+    width: 460px;
+    height: 460px;
+}
+.live_info > picture > img {
+    width: 100%;
+    height: 100%;
+}
+.live_author {
+    max-width: 230px;
+    border-radius: 23px;
+    background-color: #EDEDF2;
+    padding: 11px 16px;
+}
+.live_author-name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #07060B;
+}
+.live_name {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #07060B;
+}
+.live_timer-box {
+    gap: 32px;
+}
+.live_bet {
+    padding: 32px;
+    border-radius: 40px;
+    background-color: #EDEDF2;
+}
+.live_bet-text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #07060B;
+    margin: 0 0 16px;
+}
+.live_bet-etn {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #07060B;
+    margin: 0 0 6px;
+}
+.live_bet-dollars {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #95959D;
+}
+.live_timer {
+    max-height: 174px;
+    padding: 32px;
+    border-radius: 40px;
+    background-color: #07060B;
+    gap: 44px;
+}
+.live_timer-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFF;
+}
+.live_timer-remains {
+    gap: 26px;
+}
+.live_timer-number {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFF;
+}
+.live_timer-text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFF;
+}
+.live_btn {
+    max-width: 296px;
+    padding: 25px 54px;
+    border: none;
+    border-radius: 40px;
+    background: #46F4DB;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #07060B;
+    cursor: pointer;
+    transition: all .4s linear;
+}
+.live_btn:hover {
+    background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+}
+.live_btn:active {
+    background: #57D272;
+}
+/* LIVE */
 /* MORE_AUCTION */
 .more_auction {
     background-color: #fff;
